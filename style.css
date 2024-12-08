@@ -2,10 +2,11 @@ img{
     width: 90px;
     box-shadow: 5px 5px 5px #cdbfb0;
     border-radius: 10px;
+    margin-right: 36px;
 }
 
 body{
-    background-color:#fdecd8 ;
+    background-color:#f2e9e2 ;
     padding: 0px;
     margin: 0px;
 }
@@ -18,45 +19,56 @@ nav{
 } 
 
 nav a {
-  color: #AB8FAB;
+  color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: "Antonio", sans-serif;
+}
+
+a:hover{
+   text-decoration: underline;
 }
 
 header{
-    background-color: #DEBBDE;
+    background-color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-top: 60px;
   padding-bottom: 60px;
+  
+  background-image:  url("Bandeau-Maison-Toublanc4.jpg") ;
+  background-size: 100%;
+  background-position:center;
 }
+
 h1{
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-size: 48px;
-    color: #6a356a;
+    color: #ffffff;
 }
 h2{
     text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-size: 27px;
-    color: #6a356a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight:inherit;
 }
 
 #creation{
     display: flex;
     justify-content: center;
-    margin-top: 90px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-top: 30px;
+    padding-left: 33px;
+    padding-right: 4px;
     background-color:#fbfafa ;
 }
 
 #services{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 20px;
@@ -66,14 +78,26 @@ h2{
 #témoignages{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
     background-color:#fbfafa ;
+   
+}
+
+h4{
+    margin-right: 38px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: -4px;
 }
 
 h5{
     text-align: center;
+    font-size: 18px;
+    margin-top: -6px;
+    font-family: "Antonio", sans-serif;
 }
 
 div{
@@ -88,21 +112,78 @@ div{
 h3{
     text-align: center;
     margin-top: 100px;
-    font-size: 25px;
-    font-family: "Playwrite HR Lijeva", cursive;
-    font-style: oblique;
-    text-decoration: underline;
+    font-size: 30px;
+    font-family: "Antonio", sans-serif;
+    
+    
 }
 
 button{
-  background-color: #DEBBDE;
-  border: solid 1px #DEBBDE;
-  padding: 8px;
+  background-color:#7e757e;
+  border: solid 1px #231F23 ;
+  padding: 7px;
   border-radius: 6px;
-  color: #654F65;
+  color: #DFD8DF;
   font-size: 16px;
-  box-shadow: 4px 5px 10px #BEA7BE;
+  box-shadow: 4px 5px 10px #A59CA5 ;
+  margin-top: 13px;
+  font-family: "Open Sans", sans-serif;
 }
+
+button:hover{
+    background-color: #373137;
+}
+
+div p{
+    text-align: left;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 13px;
+}
+
+#témoignages p{
+    text-align: center;
+}
+
+#creation h4{
+    margin-top: 16px;
+}
+
+footer{
+    background-color:#fefafa ;
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 68px;
+    padding-right: 114px;
+}
+
+footer a {
+    font-family: "Red Hat Display", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+footer a :hover {
+    text-decoration: underline;
+}
+
+footer h5{
+    margin-top: 25px;
+    margin-right: 11px;
+}
+
+footer img{
+    width: 35px;
+    box-shadow: none;
+    margin-right: 11px;
+    margin-left: -5px;
+
+}
+
+
+
+
+
 
 
 
